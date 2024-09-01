@@ -5,7 +5,7 @@ import json
 import os
 
 # A list of the stock symbols you want to monitor, have to be a US based stock that alphavantage supports
-stock_symbols = ["AAPL", "NVDA"]
+stock_symbols = ["AAPL", "NVDA"] # Max length == 25
 
 # Loading environment variables from .env -- make sure to make own .env file with needed passkeys
 load_dotenv()
